@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "hcee4010_2",
+  "build_number": 2,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "vc 9.*"
+  ],
+  "files": [
+    "Library/bin/sqlite3.dll",
+    "Library/bin/sqlite3.exe",
+    "Library/include/sqlite3.h",
+    "Library/lib/sqlite3.lib"
+  ],
+  "fn": "sqlite-3.20.1-hcee4010_2.tar.bz2",
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\sqlite-3.20.1-hcee4010_2",
+    "type": 1
+  },
+  "md5": "d1ab416a46297fa34e8b39c151f1526b",
+  "name": "sqlite",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 827670,
+  "subdir": "win-64",
+  "timestamp": 1510171226130,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/sqlite-3.20.1-hcee4010_2.tar.bz2",
+  "version": "3.20.1",
+  "with_features_depends": {}
+}

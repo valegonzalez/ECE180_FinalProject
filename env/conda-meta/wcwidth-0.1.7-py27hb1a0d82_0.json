@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27hb1a0d82_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/wcwidth-0.1.7-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/wcwidth-0.1.7-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/wcwidth-0.1.7-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/wcwidth-0.1.7-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/wcwidth-0.1.7-py2.7.egg-info/zip-safe",
+    "Lib/site-packages/wcwidth/__init__.py",
+    "Lib/site-packages/wcwidth/__init__.pyc",
+    "Lib/site-packages/wcwidth/table_wide.py",
+    "Lib/site-packages/wcwidth/table_wide.pyc",
+    "Lib/site-packages/wcwidth/table_zero.py",
+    "Lib/site-packages/wcwidth/table_zero.pyc",
+    "Lib/site-packages/wcwidth/tests/__init__.py",
+    "Lib/site-packages/wcwidth/tests/__init__.pyc",
+    "Lib/site-packages/wcwidth/tests/test_core.py",
+    "Lib/site-packages/wcwidth/tests/test_core.pyc",
+    "Lib/site-packages/wcwidth/wcwidth.py",
+    "Lib/site-packages/wcwidth/wcwidth.pyc"
+  ],
+  "fn": "wcwidth-0.1.7-py27hb1a0d82_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\wcwidth-0.1.7-py27hb1a0d82_0",
+    "type": 1
+  },
+  "md5": "fe7f049692ca236bd3bb14e4b82e495d",
+  "name": "wcwidth",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 25523,
+  "subdir": "win-64",
+  "timestamp": 1506014768500,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/wcwidth-0.1.7-py27hb1a0d82_0.tar.bz2",
+  "version": "0.1.7",
+  "with_features_depends": {}
+}

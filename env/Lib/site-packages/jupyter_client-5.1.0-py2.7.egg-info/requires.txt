@@ -1,0 +1,9 @@
+traitlets
+jupyter_core
+pyzmq>=13
+python-dateutil>=2.1
+
+[test]
+ipykernel
+ipython
+pytest

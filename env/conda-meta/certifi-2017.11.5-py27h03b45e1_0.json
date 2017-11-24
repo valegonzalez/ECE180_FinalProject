@@ -1,0 +1,41 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h03b45e1_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/certifi-2017.11.05-py2.7.egg-info",
+    "Lib/site-packages/certifi/__init__.py",
+    "Lib/site-packages/certifi/__init__.pyc",
+    "Lib/site-packages/certifi/__main__.py",
+    "Lib/site-packages/certifi/__main__.pyc",
+    "Lib/site-packages/certifi/cacert.pem",
+    "Lib/site-packages/certifi/core.py",
+    "Lib/site-packages/certifi/core.pyc",
+    "Lib/site-packages/certifi/old_root.pem",
+    "Lib/site-packages/certifi/weak.pem"
+  ],
+  "fn": "certifi-2017.11.5-py27h03b45e1_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\certifi-2017.11.5-py27h03b45e1_0",
+    "type": 1
+  },
+  "md5": "af1b8db918501ecd7a4fe544fe630c99",
+  "name": "certifi",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 200927,
+  "subdir": "win-64",
+  "timestamp": 1511294727877,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/certifi-2017.11.5-py27h03b45e1_0.tar.bz2",
+  "version": "2017.11.5",
+  "with_features_depends": {}
+}

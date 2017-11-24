@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h59acbbf_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0",
+    "six"
+  ],
+  "files": [
+    "Lib/site-packages/cycler-0.10.0-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/cycler-0.10.0-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/cycler-0.10.0-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/cycler-0.10.0-py2.7.egg-info/requires.txt",
+    "Lib/site-packages/cycler-0.10.0-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/cycler.py",
+    "Lib/site-packages/cycler.pyc"
+  ],
+  "fn": "cycler-0.10.0-py27h59acbbf_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\cycler-0.10.0-py27h59acbbf_0",
+    "type": 1
+  },
+  "md5": "4d7cac7d570b1c321df50efe81eb7c4c",
+  "name": "cycler",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 13461,
+  "subdir": "win-64",
+  "timestamp": 1505893698916,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/cycler-0.10.0-py27h59acbbf_0.tar.bz2",
+  "version": "0.10.0",
+  "with_features_depends": {}
+}

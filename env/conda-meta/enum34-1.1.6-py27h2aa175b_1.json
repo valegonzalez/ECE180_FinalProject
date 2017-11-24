@@ -1,0 +1,43 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h2aa175b_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/enum/LICENSE",
+    "Lib/site-packages/enum/README",
+    "Lib/site-packages/enum/__init__.py",
+    "Lib/site-packages/enum/__init__.pyc",
+    "Lib/site-packages/enum/doc/enum.pdf",
+    "Lib/site-packages/enum/doc/enum.rst",
+    "Lib/site-packages/enum/test.py",
+    "Lib/site-packages/enum/test.pyc",
+    "Lib/site-packages/enum34-1.1.6-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/enum34-1.1.6-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/enum34-1.1.6-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/enum34-1.1.6-py2.7.egg-info/top_level.txt"
+  ],
+  "fn": "enum34-1.1.6-py27h2aa175b_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\enum34-1.1.6-py27h2aa175b_1",
+    "type": 1
+  },
+  "md5": "60a24726c5a6786b2bc6b34251dd071c",
+  "name": "enum34",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 57942,
+  "subdir": "win-64",
+  "timestamp": 1505849688205,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/enum34-1.1.6-py27h2aa175b_1.tar.bz2",
+  "version": "1.1.6",
+  "with_features_depends": {}
+}

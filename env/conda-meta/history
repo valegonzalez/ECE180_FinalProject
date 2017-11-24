@@ -1,0 +1,107 @@
+==> 2017-11-23 12:04:34 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py create --name ece180final python=2.7
++defaults::certifi-2017.11.5-py27h03b45e1_0
++defaults::pip-9.0.1-py27hdaa76b4_4
++defaults::python-2.7.14-h8c3f1cb_23
++defaults::setuptools-36.5.0-py27ha483b79_0
++defaults::vc-9-h7299396_1
++defaults::vs2008_runtime-9.00.30729.1-hfaea7d5_1
++defaults::wheel-0.30.0-py27ha643586_1
++defaults::wincertstore-0.2-py27hf04cefb_0
+# create specs: python 2.7*
+==> 2017-11-23 12:07:02 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install jupyter
++defaults::backports-1.0-py27h6492d98_1
++defaults::backports.shutil_get_terminal_size-1.0.0-py27h1657125_2
++defaults::backports_abc-0.5-py27h0ec6b72_0
++defaults::bleach-2.0.0-py27ha102ec9_0
++defaults::ca-certificates-2017.08.26-h94faf87_0
++defaults::colorama-0.3.9-py27hdfe4ae1_0
++defaults::configparser-3.5.0-py27h2fa79a8_0
++defaults::decorator-4.1.2-py27h383e199_0
++defaults::entrypoints-0.2.3-py27h0271f2b_2
++defaults::enum34-1.1.6-py27h2aa175b_1
++defaults::functools32-3.2.3.2-py27h0cdbcdb_1
++defaults::html5lib-0.999999999-py27h47766b3_0
++defaults::icu-58.2-h2aa20d9_1
++defaults::ipykernel-4.6.1-py27h30cef79_0
++defaults::ipython-5.4.1-py27hbf971b4_1
++defaults::ipython_genutils-0.2.0-py27hbe997df_0
++defaults::ipywidgets-7.0.5-py27hac8cb9a_0
++defaults::jinja2-2.9.6-py27hb525989_1
++defaults::jpeg-9b-ha175dff_2
++defaults::jsonschema-2.6.0-py27haaf3834_0
++defaults::jupyter-1.0.0-py27h9d2e098_2
++defaults::jupyter_client-5.1.0-py27hced1786_0
++defaults::jupyter_console-5.2.0-py27h6ed736b_1
++defaults::jupyter_core-4.4.0-py27h1619e65_0
++defaults::libpng-1.6.32-hc90de78_4
++defaults::markupsafe-1.0-py27h9d4480d_1
++defaults::mistune-0.8.1-py27hf875dda_0
++defaults::nbconvert-5.3.1-py27h7a573cf_0
++defaults::nbformat-4.4.0-py27hf49b375_0
++defaults::notebook-5.2.1-py27hc47cebe_0
++defaults::openssl-1.0.2m-h2fe09c5_1
++defaults::pandoc-1.19.2.1-hb2460c7_1
++defaults::pandocfilters-1.4.2-py27h76461d3_1
++defaults::pathlib2-2.3.0-py27h0ae272f_0
++defaults::pickleshare-0.7.4-py27hb5f6335_0
++defaults::prompt_toolkit-1.0.15-py27h3a8ec6a_0
++defaults::pygments-2.2.0-py27ha50f84f_0
++defaults::pyqt-5.6.0-py27h224ed30_5
++defaults::python-dateutil-2.6.1-py27hbdcc174_1
++defaults::pyzmq-16.0.3-py27he883654_0
++defaults::qt-5.6.2-vc9hc26998b_12
++defaults::qtconsole-4.3.1-py27h77d40ac_0
++defaults::scandir-1.6-py27h518bda0_0
++defaults::simplegeneric-0.8.1-py27h2c3a90d_0
++defaults::singledispatch-3.4.0.3-py27h3f9d112_0
++defaults::sip-4.18.1-py27h5ec1c1a_2
++defaults::six-1.11.0-py27ha5e1701_1
++defaults::sqlite-3.20.1-hcee4010_2
++defaults::ssl_match_hostname-3.5.0.1-py27hea8a0f4_2
++defaults::testpath-0.3.1-py27h1cd488d_0
++defaults::tornado-4.5.2-py27hbdd278e_0
++defaults::traitlets-4.3.2-py27h1b1b3a5_0
++defaults::wcwidth-0.1.7-py27hb1a0d82_0
++defaults::webencodings-0.5.1-py27h4e224a2_1
++defaults::widgetsnbextension-3.0.8-py27hc754cff_0
++defaults::win_unicode_console-0.5-py27hc037021_0
++defaults::zlib-1.2.11-hbc2faf4_2
+# install specs: jupyter
+==> 2017-11-23 12:34:39 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install matplotlib
++defaults::backports.functools_lru_cache-1.4-py27h9586e20_1
++defaults::cycler-0.10.0-py27h59acbbf_0
++defaults::freetype-2.8-hea645e0_1
++defaults::icc_rt-2017.0.4-h97af966_0
++defaults::intel-openmp-2018.0.0-hd92c6cd_8
++defaults::matplotlib-2.1.0-py27h86412ea_0
++defaults::mkl-2018.0.1-h2108138_4
++defaults::numpy-1.13.3-py27h9ac254c_0
++defaults::pyparsing-2.2.0-py27hc7d9fa6_1
++defaults::pytz-2017.3-py27hca431c1_0
+# install specs: matplotlib
+==> 2017-11-23 12:35:23 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install pandas
++defaults::pandas-0.21.0-py27h3b50df0_1
+# install specs: pandas
+==> 2017-11-23 12:42:49 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install shapely
++defaults::geos-3.6.2-heec837b_2
++defaults::shapely-1.6.2-py27h014e281_0
+# install specs: shapely
+==> 2017-11-23 12:54:37 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install basemap
++defaults::basemap-1.0.7-np113py27_0
+# install specs: basemap
+==> 2017-11-23 12:55:16 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install pillow
++defaults::libtiff-4.0.9-hafacce9_0
++defaults::olefile-0.44-py27h42675a9_0
++defaults::pillow-4.2.1-py27hbae4915_0
+# install specs: pillow
+==> 2017-11-23 12:55:55 <==
+# cmd: D:\Anaconda2\Scripts\conda-script.py install proj4
++defaults::proj4-4.9.3-h3980ba1_7
+# install specs: proj4

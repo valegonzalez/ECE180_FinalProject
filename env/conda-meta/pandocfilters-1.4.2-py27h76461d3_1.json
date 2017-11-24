@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h76461d3_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/pandocfilters-1.4.2-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/pandocfilters-1.4.2-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/pandocfilters-1.4.2-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/pandocfilters-1.4.2-py2.7.egg-info/installed-files.txt",
+    "Lib/site-packages/pandocfilters-1.4.2-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/pandocfilters.py",
+    "Lib/site-packages/pandocfilters.pyc"
+  ],
+  "fn": "pandocfilters-1.4.2-py27h76461d3_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\pandocfilters-1.4.2-py27h76461d3_1",
+    "type": 1
+  },
+  "md5": "82e64785ae24bdcb12b056f589b95687",
+  "name": "pandocfilters",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 12726,
+  "subdir": "win-64",
+  "timestamp": 1505978705403,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/pandocfilters-1.4.2-py27h76461d3_1.tar.bz2",
+  "version": "1.4.2",
+  "with_features_depends": {}
+}

@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27ha5e1701_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/six-1.11.0-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/six-1.11.0-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/six-1.11.0-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/six-1.11.0-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/six.py",
+    "Lib/site-packages/six.pyc"
+  ],
+  "fn": "six-1.11.0-py27ha5e1701_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\six-1.11.0-py27ha5e1701_1",
+    "type": 1
+  },
+  "md5": "e40ba707f2deca48f0283463f8104b47",
+  "name": "six",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 21671,
+  "subdir": "win-64",
+  "timestamp": 1508610739926,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/six-1.11.0-py27ha5e1701_1.tar.bz2",
+  "version": "1.11.0",
+  "with_features_depends": {}
+}

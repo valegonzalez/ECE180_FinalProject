@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h0271f2b_2",
+  "build_number": 2,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "configparser",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/entrypoints-0.2.3-py2.7.egg-info",
+    "Lib/site-packages/entrypoints.py",
+    "Lib/site-packages/entrypoints.pyc"
+  ],
+  "fn": "entrypoints-0.2.3-py27h0271f2b_2.tar.bz2",
+  "license": "MIT License",
+  "license_family": "MIT",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\entrypoints-0.2.3-py27h0271f2b_2",
+    "type": 1
+  },
+  "md5": "b5af9c317e284d8c47985295c6beae2e",
+  "name": "entrypoints",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 9071,
+  "subdir": "win-64",
+  "timestamp": 1505855105951,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/entrypoints-0.2.3-py27h0271f2b_2.tar.bz2",
+  "version": "0.2.3",
+  "with_features_depends": {}
+}

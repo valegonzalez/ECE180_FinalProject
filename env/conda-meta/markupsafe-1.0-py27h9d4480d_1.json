@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h9d4480d_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0",
+    "vc 9.*"
+  ],
+  "files": [
+    "Lib/site-packages/MarkupSafe-1.0-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/MarkupSafe-1.0-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/MarkupSafe-1.0-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/MarkupSafe-1.0-py2.7.egg-info/not-zip-safe",
+    "Lib/site-packages/MarkupSafe-1.0-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/markupsafe/__init__.py",
+    "Lib/site-packages/markupsafe/__init__.pyc",
+    "Lib/site-packages/markupsafe/_compat.py",
+    "Lib/site-packages/markupsafe/_compat.pyc",
+    "Lib/site-packages/markupsafe/_constants.py",
+    "Lib/site-packages/markupsafe/_constants.pyc",
+    "Lib/site-packages/markupsafe/_native.py",
+    "Lib/site-packages/markupsafe/_native.pyc",
+    "Lib/site-packages/markupsafe/_speedups.c",
+    "Lib/site-packages/markupsafe/_speedups.pyd"
+  ],
+  "fn": "markupsafe-1.0-py27h9d4480d_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\markupsafe-1.0-py27h9d4480d_1",
+    "type": 1
+  },
+  "md5": "a1843a4a34eba88e09a934728faf2260",
+  "name": "markupsafe",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 25537,
+  "subdir": "win-64",
+  "timestamp": 1505855161717,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/markupsafe-1.0-py27h9d4480d_1.tar.bz2",
+  "version": "1.0",
+  "with_features_depends": {}
+}

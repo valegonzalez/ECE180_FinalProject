@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h3f9d112_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0",
+    "six"
+  ],
+  "files": [
+    "Lib/site-packages/singledispatch-3.4.0.3-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/singledispatch-3.4.0.3-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py2.7.egg-info/requires.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/singledispatch-3.4.0.3-py2.7.egg-info/zip-safe",
+    "Lib/site-packages/singledispatch.py",
+    "Lib/site-packages/singledispatch.pyc",
+    "Lib/site-packages/singledispatch_helpers.py",
+    "Lib/site-packages/singledispatch_helpers.pyc"
+  ],
+  "fn": "singledispatch-3.4.0.3-py27h3f9d112_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\singledispatch-3.4.0.3-py27h3f9d112_0",
+    "type": 1
+  },
+  "md5": "312ed26d4206e42be5718dd086eed06a",
+  "name": "singledispatch",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 15389,
+  "subdir": "win-64",
+  "timestamp": 1505850870519,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/singledispatch-3.4.0.3-py27h3f9d112_0.tar.bz2",
+  "version": "3.4.0.3",
+  "with_features_depends": {}
+}

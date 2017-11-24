@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h5ec1c1a_2",
+  "build_number": 2,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0",
+    "vc 9.*"
+  ],
+  "files": [
+    "Lib/site-packages/sip.pyd",
+    "Lib/site-packages/sip.pyi",
+    "Lib/site-packages/sipconfig.py",
+    "Lib/site-packages/sipconfig.pyc",
+    "Lib/site-packages/sipdistutils.py",
+    "Lib/site-packages/sipdistutils.pyc",
+    "Library/bin/sip.exe",
+    "include/sip.h"
+  ],
+  "fn": "sip-4.18.1-py27h5ec1c1a_2.tar.bz2",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\sip-4.18.1-py27h5ec1c1a_2",
+    "type": 1
+  },
+  "md5": "e89aad538de8cc7d3663e1ca396372dc",
+  "name": "sip",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 270354,
+  "subdir": "win-64",
+  "timestamp": 1505894893727,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/sip-4.18.1-py27h5ec1c1a_2.tar.bz2",
+  "version": "4.18.1",
+  "with_features_depends": {}
+}

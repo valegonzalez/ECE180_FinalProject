@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h0cdbcdb_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/functools32-3.2.3_2-py2.7.egg-info",
+    "Lib/site-packages/functools32/__init__.py",
+    "Lib/site-packages/functools32/__init__.pyc",
+    "Lib/site-packages/functools32/_dummy_thread32.py",
+    "Lib/site-packages/functools32/_dummy_thread32.pyc",
+    "Lib/site-packages/functools32/functools32.py",
+    "Lib/site-packages/functools32/functools32.pyc",
+    "Lib/site-packages/functools32/reprlib32.py",
+    "Lib/site-packages/functools32/reprlib32.pyc"
+  ],
+  "fn": "functools32-3.2.3.2-py27h0cdbcdb_1.tar.bz2",
+  "license": "PSF license",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\functools32-3.2.3.2-py27h0cdbcdb_1",
+    "type": 1
+  },
+  "md5": "917a66f3cda1dc155d24c13191ce8e2a",
+  "name": "functools32",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 23009,
+  "subdir": "win-64",
+  "timestamp": 1505854792731,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/functools32-3.2.3.2-py27h0cdbcdb_1.tar.bz2",
+  "version": "3.2.3.2",
+  "with_features_depends": {}
+}

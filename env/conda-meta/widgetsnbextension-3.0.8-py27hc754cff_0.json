@@ -1,0 +1,47 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27hc754cff_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "notebook >=4.4.1",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/widgetsnbextension-3.0.8-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/widgetsnbextension-3.0.8-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/widgetsnbextension-3.0.8-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/widgetsnbextension-3.0.8-py2.7.egg-info/not-zip-safe",
+    "Lib/site-packages/widgetsnbextension-3.0.8-py2.7.egg-info/requires.txt",
+    "Lib/site-packages/widgetsnbextension-3.0.8-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/widgetsnbextension/__init__.py",
+    "Lib/site-packages/widgetsnbextension/__init__.pyc",
+    "Lib/site-packages/widgetsnbextension/_version.py",
+    "Lib/site-packages/widgetsnbextension/_version.pyc",
+    "Lib/site-packages/widgetsnbextension/static/extension.js",
+    "Lib/site-packages/widgetsnbextension/static/extension.js.map",
+    "share/jupyter/nbextensions/jupyter-js-widgets/extension.js",
+    "share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map"
+  ],
+  "fn": "widgetsnbextension-3.0.8-py27hc754cff_0.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\widgetsnbextension-3.0.8-py27hc754cff_0",
+    "type": 1
+  },
+  "md5": "0d07c7679135bc4ce6356fc745b45f56",
+  "name": "widgetsnbextension",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 1775150,
+  "subdir": "win-64",
+  "timestamp": 1511371737864,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/widgetsnbextension-3.0.8-py27hc754cff_0.tar.bz2",
+  "version": "3.0.8",
+  "with_features_depends": {}
+}

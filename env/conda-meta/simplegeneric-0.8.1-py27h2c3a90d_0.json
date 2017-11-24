@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py27h2c3a90d_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "files": [
+    "Lib/site-packages/simplegeneric-0.8.1-py2.7.egg-info/PKG-INFO",
+    "Lib/site-packages/simplegeneric-0.8.1-py2.7.egg-info/SOURCES.txt",
+    "Lib/site-packages/simplegeneric-0.8.1-py2.7.egg-info/dependency_links.txt",
+    "Lib/site-packages/simplegeneric-0.8.1-py2.7.egg-info/top_level.txt",
+    "Lib/site-packages/simplegeneric.py",
+    "Lib/site-packages/simplegeneric.pyc"
+  ],
+  "fn": "simplegeneric-0.8.1-py27h2c3a90d_0.tar.bz2",
+  "license": "Zope Public",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\simplegeneric-0.8.1-py27h2c3a90d_0",
+    "type": 1
+  },
+  "md5": "62047f2da678aa790447e6485574a570",
+  "name": "simplegeneric",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 9170,
+  "subdir": "win-64",
+  "timestamp": 1505852966260,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/simplegeneric-0.8.1-py27h2c3a90d_0.tar.bz2",
+  "version": "0.8.1",
+  "with_features_depends": {}
+}

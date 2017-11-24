@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "h94faf87_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/win-64",
+  "depends": [],
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2017.08.26-h94faf87_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "D:\\Anaconda2\\pkgs\\ca-certificates-2017.08.26-h94faf87_0",
+    "type": 1
+  },
+  "md5": "3bf206d2ccac7b533c067e80473ea9e8",
+  "name": "ca-certificates",
+  "noarch": null,
+  "platform": "win32",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 500656,
+  "subdir": "win-64",
+  "timestamp": 1505866321690,
+  "url": "https://repo.continuum.io/pkgs/main/win-64/ca-certificates-2017.08.26-h94faf87_0.tar.bz2",
+  "version": "2017.08.26",
+  "with_features_depends": {}
+}
