@@ -19,3 +19,6 @@ crime_types=crime_data.crime_code_description.unique()
 victim_sex_types=crime_data.victim_sex.unique()
 victim_age_types=crime_data.victim_age.unique()
 victim_descent_types=crime_data.victim_descent.unique()
+location=crime_data.location
+area= crime_data.groupby('area_name')
+area.count()
