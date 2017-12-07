@@ -14,6 +14,7 @@ young_victim_in2016.crime_code.dropna().plot(kind='kde',xlim=(90,600)),plt.show(
 
 
 df=young_victim
+df=df.set_index('date_occurred')
 df.resample('AS').time_occurred.sum().to_period('A').plot(kind='line')
 #young_victim vs year
 
