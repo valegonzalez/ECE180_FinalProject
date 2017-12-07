@@ -7,14 +7,14 @@ young_victim = crime_data[crime_data.victim_age < 18]
 young_victim_in2016 = crime_data[(crime_data.victim_age < 18) & (crime_data.date_occurred.str.endswith('16'))]
 
 
-df.resample('AS').time_occurred.sum().to_period('A').plot(kind='line')
-#young_victim vs year
 gender=young_victim_in2016.groupby('victim_sex').time_occurred.sum().plot(kind='bar')
 #show different gender victims in 2016#
 young_victim_in2016.crime_code.dropna().plot(kind='kde',xlim=(90,600)),plt.show()
 #show the kernel density estimate plot for different crime type, here the toppest one is code510#
 
 
-
+df=young_victim
+df.resample('AS').time_occurred.sum().to_period('A').plot(kind='line')
+#young_victim vs year
 
 
