@@ -21,23 +21,27 @@ important_crime_types = ['VEHICLE - STOLEN', 'CRIMINAL HOMICIDE', 'ROBBERY',
                          'WEAPONS POSSESSION/BOMBING', 'RAPE', 'KIDNAPPING',
                          'BATTERY WITH SEXUAL CONTACT', 'PURSE SNATCHING', 'THEFT, PERSON',
                          'THEFT FROM MOTOR VEHICLE']
-for i in range(df.crime_code_description.count()):
-    if df.crime_code_description.index(i) in ['THEFT FROM MOTOR VEHICLE - GRAND ($400 AND OVER)', 
-             'THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)', 
-             'THEFT FROM MOTOR VEHICLE - ATTEMPT']:
-        i = 'THEFT FROM MOTOR VEHICLE'
-    elif df.crime_code_description.index(i) in ['RAPE, FORCIBLE', 'RAPE, ATTEMPTED']:
-        i = 'RAPE'
-    elif df.crime_code_description.index(i) in ['KIDNAPPING - GRAND ATTEMPT','KIDNAPPING']:
-        i = 'KIDNAPPING'
+
+
+df.loc[(df.crime_code_description == 'THEFT FROM MOTOR VEHICLE - GRAND ($400 AND OVER)') | 
+        (df.crime_code_description =='THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)') | 
+        (df.crime_code_description =='THEFT FROM MOTOR VEHICLE - ATTEMPT')] = 'THEFT FROM MOTOR VEHICLE'
+df.loc[(df.crime_code_description == 'RAPE, FORCIBLE') | 
+        (df.crime_code_description =='RAPE, ATTEMPTED')] = 'RAPE'
+df.loc[(df.crime_code_description == 'KIDNAPPING - GRAND ATTEMPT') | 
+        (df.crime_code_description =='KIDNAPPING')] = 'KIDNAPPING'
+
 df = df[df['crime_code_description'].isin(important_crime_types)]
 
 in2016 = df[df.date_occurred.str.endswith('16')]
 
 #Pie Chart showing distribution of crimes by type
-labels = ('VEHICLE - STOLEN', 'CRIMINAL HOMICIDE', 'ROBBERY', 
-'WEAPONS POSSESSION/BOMBING', 'RAPE, FORCIBLE', 'RAPE, ATTEMPTED', 
-'KIDNAPPING', 'KIDNAPPING - GRAND ATTEMPT', 'BATTERY WITH SEXUAL CONTACT', 
-'PURSE SNATCHING', 'THEFT, PERSON', 'THEFT FROM MOTOR VEHICLE - GRAND ($400 AND OVER)', 
-'THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)', 'THEFT FROM MOTOR VEHICLE - ATTEMPT')
-sizes
+labels = 'VEHICLE - STOLEN', 'CRIMINAL HOMICIDE', 'ROBBERY', 'WEAPONS POSSESSION/BOMBING', 'RAPE', 'KIDNAPPING', 'BATTERY WITH SEXUAL CONTACT', 'PURSE SNATCHING', 'THEFT, PERSON', 'THEFT FROM MOTOR VEHICLE'
+sizes = []
+for crime in labels:
+    sizes.append(df[df.crime_code_description == crime].count()['crime_code_description'])
+
+fig1,ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, autopct = '%1.0f%%', shadow = True, labeldistance = 1.2, startangle=90, radius = 20)
+ax1.axis('equal')
+plt.show
